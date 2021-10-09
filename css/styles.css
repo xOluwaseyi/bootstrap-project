@@ -1,0 +1,167 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* navigation */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Tahoma;
+}
+
+/* download button */
+
+.Downloadbut {
+  margin: 5% 3% 5% 0;
+}
+
+.dogImg {
+  transform: rotate(25deg);
+  height: 400px;
+  padding-left: 50px;
+  position: absolute;
+  right: 20%;
+  top: -25%;
+}
+
+#features {
+  padding: 6% 6%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.features-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.featuresh3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+p {
+  color: grey;
+}
+
+.featureslogo {
+  color: #ef8172;
+  margin-bottom: 15px;
+}
+
+.featureslogo:hover {
+  color: red;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+.testimonialimg {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#press img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 40px 0;
+}
+
+h3 {
+  font-size: 2.5rem;
+  line-height: 1.3;
+  font-weight: bolder;
+  color: white;
+ padding-top: 5px;
+}
+
+.Downloadbut1 {
+  margin: 20px;
+}
+
+#footer {
+  background-color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .dogImg {
+    position: static;
+    transform: rotate(0);
+  }
+}
